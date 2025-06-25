@@ -6,37 +6,37 @@
       "url": "https://www.westernsydney.edu.au/",
       "source": "CRAWL",
       "targetPath": "/",
-      "id": ""
+      "id": "697353aa1cc265b9958f10b296f10e14731c24bd"
     },
     {
       "url": "https://www.westernsydney.edu.au/students/support",
       "source": "CRAWL",
       "targetPath": "/students/support",
-      "id": ""
+      "id": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7"
     },
     {
       "url": "https://www.westernsydney.edu.au/students/support/study-help",
       "source": "CRAWL",
       "targetPath": "/students/support/study-help",
-      "id": ""
+      "id": "5cffb90f2ef1a34206b98c73fcd4135e2f711265"
     },
     {
       "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
       "source": "CRAWL",
       "targetPath": "/students/support/support-and-wellbeing",
-      "id": ""
+      "id": "5c4df96bdfb0a490d831db5237ebdcc2af86047c"
     },
     {
       "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
       "source": "CRAWL",
       "targetPath": "/students/support/resources-and-advice",
-      "id": ""
+      "id": "fac78687d85d54b111ceca7952ef206580fc8e52"
     },
     {
       "url": "https://www.westernsydney.edu.au/students/support/social-life",
       "source": "CRAWL",
       "targetPath": "/students/support/social-life",
-      "id": ""
+      "id": "475de7e4844bd10a23a6824145d65fb438d3ae01"
     }
   ],
   "crawlOptions": {
