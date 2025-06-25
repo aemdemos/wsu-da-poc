@@ -1,0 +1,823 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-10-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-09-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-16-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-15-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-10-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-09-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-15-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-14-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-06-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-05-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-11-8039dc249e401979f5ad591b69d0886f7550d16d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-10-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Columns",
+      "cluster": 1,
+      "source": "Columns",
+      "target": "Columns (columns1)",
+      "key": "columns1",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-05-de7628ac5ba33db70b0977fb862ec9640ec758b0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-05-de7628ac5ba33db70b0977fb862ec9640ec758b0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-12-a1857c9fc68465e1eccd545f91029c1d3bc162ff",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-03-fdc78afe36733d20122987123f3f195e908e3173",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-09-d9c8ae0fcb6fd4bd664f9c09c1b3a64cc7050f4a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-11-9618c3d24162fd95de1317b2f693e0c8a6731710",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-07-42de7e450a2155f7d0cf2e41d520f130f3fe658f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-13-820934bf23866806b48fcde5d2f2980fd371854b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-07-42de7e450a2155f7d0cf2e41d520f130f3fe658f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-08-565bd42ce250dcfabc7450e84ab0f85531c0f05a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-05-de7628ac5ba33db70b0977fb862ec9640ec758b0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-03-fdc78afe36733d20122987123f3f195e908e3173",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-03-fdc78afe36733d20122987123f3f195e908e3173",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-07-42de7e450a2155f7d0cf2e41d520f130f3fe658f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-06-d98e697d5fc843d1a08a32c1beabfb32cc8c1e52",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 8,
+      "key": "hero8",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-09-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-15-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-09-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-14-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-05-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-10-98f39b77fb46ac320fb6d8b0ac5808ff3cc0d5f8",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 11,
+      "source": "Header",
+      "target": "Header (header11)",
+      "key": "header11",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-05-de7628ac5ba33db70b0977fb862ec9640ec758b0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-06-d98e697d5fc843d1a08a32c1beabfb32cc8c1e52",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-08-565bd42ce250dcfabc7450e84ab0f85531c0f05a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-10-8781ea03fa02eeaa65cea5572be613cb0d5f2eeb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-07-42de7e450a2155f7d0cf2e41d520f130f3fe658f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "source": "Cards",
+      "target": "Cards (cards15)",
+      "key": "cards15",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-03-fdc78afe36733d20122987123f3f195e908e3173",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 16,
+      "key": "hero16",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-02-b6d70ed86296faf43c98e7144c6931079480bf42",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 17,
+      "source": "Cards",
+      "target": "Cards (cards17)",
+      "key": "cards17",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-09-d9c8ae0fcb6fd4bd664f9c09c1b3a64cc7050f4a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns",
+      "target": "Columns (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-10-8781ea03fa02eeaa65cea5572be613cb0d5f2eeb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 19,
+      "source": "Accordion",
+      "target": "Accordion",
+      "key": "accordion19",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-13-820934bf23866806b48fcde5d2f2980fd371854b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 20,
+      "source": "Header",
+      "target": "Header (header20)",
+      "key": "header20",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-00-2fbe833abdc8b678293bc3ed901c27c7865bd2bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 21,
+      "source": "Cards",
+      "target": "Cards (cards21)",
+      "key": "cards21",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-08-565bd42ce250dcfabc7450e84ab0f85531c0f05a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 22,
+      "key": "hero22",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-12-a1857c9fc68465e1eccd545f91029c1d3bc162ff",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 23,
+      "key": "hero23",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-06-d98e697d5fc843d1a08a32c1beabfb32cc8c1e52",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 24,
+      "source": "Embed",
+      "target": "Embed (embedVideo24)",
+      "key": "embedVideo24",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/social-life",
+          "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+          "uuid": "475de7e4-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+          "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+          "uuid": "5c4df96b-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support",
+          "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+          "uuid": "acf8c4a1-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-01-e598c9eeebfa96869716faa2d96a72479fb288e3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 25,
+      "source": "Columns",
+      "target": "Columns (columns25)",
+      "key": "columns25",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-06-d98e697d5fc843d1a08a32c1beabfb32cc8c1e52",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+          "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+          "uuid": "fac78687-06-d98e697d5fc843d1a08a32c1beabfb32cc8c1e52",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 26,
+      "source": "Embed",
+      "target": "Embed (embedVideo26)",
+      "key": "embedVideo26",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-05-de7628ac5ba33db70b0977fb862ec9640ec758b0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 27,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages27",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 28,
+      "source": "Carousel",
+      "target": "Carousel",
+      "key": "carousel28",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/",
+          "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+          "uuid": "697353aa-11-9618c3d24162fd95de1317b2f693e0c8a6731710",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 29,
+      "source": "Columns",
+      "target": "Columns (columns29)",
+      "key": "columns29",
+      "instances": [
+        {
+          "url": "https://www.westernsydney.edu.au/students/support/study-help",
+          "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+          "uuid": "5cffb90f-04-5eb2a8b687840e352f92b15d543fdb5ec86e8f9f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/social-life",
+      "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+      "uuid": "475de7e4-03-fdc78afe36733d20122987123f3f195e908e3173",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/social-life",
+      "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+      "uuid": "475de7e4-08-565bd42ce250dcfabc7450e84ab0f85531c0f05a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/social-life",
+      "urlHash": "475de7e4844bd10a23a6824145d65fb438d3ae01",
+      "uuid": "475de7e4-10-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+      "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+      "uuid": "5c4df96b-14-26224b9fac8cfeb753403d2d13b0322c6381d243",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/support-and-wellbeing",
+      "urlHash": "5c4df96bdfb0a490d831db5237ebdcc2af86047c",
+      "uuid": "5c4df96b-16-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/study-help",
+      "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+      "uuid": "5cffb90f-08-565bd42ce250dcfabc7450e84ab0f85531c0f05a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/study-help",
+      "urlHash": "5cffb90f2ef1a34206b98c73fcd4135e2f711265",
+      "uuid": "5cffb90f-10-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/",
+      "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+      "uuid": "697353aa-03-fdc78afe36733d20122987123f3f195e908e3173",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/",
+      "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+      "uuid": "697353aa-07-42de7e450a2155f7d0cf2e41d520f130f3fe658f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/",
+      "urlHash": "697353aa1cc265b9958f10b296f10e14731c24bd",
+      "uuid": "697353aa-15-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support",
+      "urlHash": "acf8c4a1e6efc1bba4d7a64fb29ff5daa5b948b7",
+      "uuid": "acf8c4a1-06-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+      "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+      "uuid": "fac78687-09-d9c8ae0fcb6fd4bd664f9c09c1b3a64cc7050f4a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://www.westernsydney.edu.au/students/support/resources-and-advice",
+      "urlHash": "fac78687d85d54b111ceca7952ef206580fc8e52",
+      "uuid": "fac78687-11-8039dc249e401979f5ad591b69d0886f7550d16d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    }
+  ]
+}
