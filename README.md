@@ -1,11 +1,11 @@
-# paolom-230625-5
+# wsu-da-poc
 
 This is a project created by AEMY.
 
 ## Environments
 
-- Preview: https://main--paolom-230625-5--aemdemos.aem.page/
-- Live: https://main--paolom-230625-5--aemdemos.aem.live/
+- Preview: https://main--wsu-da-poc--aemdemos.aem.page/
+- Live: https://main--wsu-da-poc--aemdemos.aem.live/
 
 ## Installation
 
