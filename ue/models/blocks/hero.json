@@ -29,8 +29,8 @@
           "value": ""
         },
         {
-          "component": "text",
-          "name": "div:nth-child(1)>div:nth-child(1)>h1:nth-child(2)",
+          "component": "richtext",
+          "name": "div:nth-child(2)>div:nth-child(1)",
           "value": "",
           "label": "Text",
           "valueType": "string"
