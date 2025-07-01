@@ -5,22 +5,24 @@
       "fields": [
         {
           "component": "text",
-          "valueType": "string",
-          "name": "jcr:title",
+          "name": "title",
           "label": "Title"
         },
         {
           "component": "text",
-          "valueType": "string",
-          "name": "jcr:description",
+          "name": "description",
           "label": "Description"
         },
         {
+          "component": "reference",
+          "name": "image",
+          "label": "Image"
+        },
+        {
           "component": "text",
-          "valueType": "string",
-          "name": "keywords",
-          "multi": true,
-          "label": "Keywords"
+          "name": "robots",
+          "label": "Robots",
+          "description": "Index control via robots"
         }
       ]
     }

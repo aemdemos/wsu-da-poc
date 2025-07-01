@@ -4,22 +4,24 @@
     "fields": [
       {
         "component": "text",
-        "valueType": "string",
-        "name": "jcr:title",
+        "name": "title",
         "label": "Title"
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "jcr:description",
+        "name": "description",
         "label": "Description"
       },
       {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
         "component": "text",
-        "valueType": "string",
-        "name": "keywords",
-        "multi": true,
-        "label": "Keywords"
+        "name": "robots",
+        "label": "Robots",
+        "description": "Index control via robots"
       }
     ]
   },
@@ -28,106 +30,20 @@
     "fields": [
       {
         "component": "reference",
-        "name": "image",
+        "name": "img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "name": "imageAlt",
+        "name": "img:nth-child(3)[alt]",
         "label": "Alt Text"
-      }
-    ]
-  },
-  {
-    "id": "title",
-    "fields": [
-      {
-        "component": "text",
-        "name": "title",
-        "label": "Title"
-      },
-      {
-        "component": "select",
-        "name": "titleType",
-        "label": "Title Type",
-        "options": [
-          {
-            "name": "h1",
-            "value": "h1"
-          },
-          {
-            "name": "h2",
-            "value": "h2"
-          },
-          {
-            "name": "h3",
-            "value": "h3"
-          },
-          {
-            "name": "h4",
-            "value": "h4"
-          },
-          {
-            "name": "h5",
-            "value": "h5"
-          },
-          {
-            "name": "h6",
-            "value": "h6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "button",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "link",
-        "label": "Link"
-      },
-      {
-        "component": "text",
-        "name": "linkText",
-        "label": "Text"
-      },
-      {
-        "component": "text",
-        "name": "linkTitle",
-        "label": "Title"
-      },
-      {
-        "component": "select",
-        "name": "linkType",
-        "label": "Type",
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "primary",
-            "value": "primary"
-          },
-          {
-            "name": "secondary",
-            "value": "secondary"
-          }
-        ]
       }
     ]
   },
   {
     "id": "section",
     "fields": [
-      {
-        "component": "text",
-        "name": "name",
-        "label": "Section Name",
-        "description": "The label shown for this section in the Content Tree"
-      },
       {
         "component": "multiselect",
         "name": "style",
@@ -145,18 +61,20 @@
     "id": "accordion-item",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
-        "name": "summary",
+        "name": "div:nth-child(1)",
         "value": "",
-        "label": "Summary"
+        "label": "Summary",
+        "required": true
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "div:nth-child(2)",
         "value": "",
         "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "required": true
       }
     ]
   },
@@ -166,13 +84,20 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "label": "Image Alt",
+        "multi": false
+      },
+      {
         "component": "richtext",
-        "name": "text",
+        "name": "div:nth-child(2)",
         "value": "",
         "label": "Text",
         "valueType": "string"
@@ -185,67 +110,21 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "media_image",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
         "label": "Background Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "media_imageAlt",
-        "value": "",
-        "label": "Bacgkround Alt"
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "label": "Background Image Alt"
       },
       {
         "component": "richtext",
-        "name": "content_text",
-        "value": "",
+        "name": "div:nth-child(2)",
         "label": "Text",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "columns",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
-      }
-    ]
-  },
-  {
-    "id": "embed",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "embed_placeholder",
-        "label": "Placeholder Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "embed_placeholderAlt",
-        "value": "",
-        "label": "Placeholder Image Alt Text"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "embed_uri",
-        "label": "URI"
       }
     ]
   },
@@ -253,9 +132,15 @@
     "id": "fragment",
     "fields": [
       {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]",
+        "label": "Fragment URL",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)",
+        "label": "Fragment URL Text"
       }
     ]
   },
@@ -265,38 +150,23 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
+        "name": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
         "label": "Alt",
         "value": ""
       },
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>h1:nth-child(2)",
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "modal",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "link",
-        "label": "Link"
-      },
-      {
-        "component": "text",
-        "name": "linkText",
-        "label": "Text"
       }
     ]
   },
@@ -306,15 +176,14 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "quotation",
-        "value": "",
-        "label": "Quotation"
+        "name": "div:nth-child(1)>div:nth-child(1)",
+        "label": "Quote",
+        "required": true
       },
       {
-        "component": "richtext",
-        "name": "attribution",
-        "value": "",
-        "label": "Attribution",
+        "component": "text",
+        "name": "div:nth-child(2)>div:nth-child(1)>p:nth-child(1)",
+        "label": "Author",
         "valueType": "string"
       }
     ]
@@ -325,171 +194,15 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "index",
-        "label": "Index"
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]",
+        "label": "Search URL",
+        "required": true
       },
       {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Options",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Search Type",
-            "children": [
-              {
-                "name": "Minimal",
-                "value": "minimal"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "table",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Options",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Border",
-            "children": [
-              {
-                "name": "Striped",
-                "value": "striped"
-              },
-              {
-                "name": "Bordered",
-                "value": "bordered"
-              }
-            ]
-          },
-          {
-            "name": "Header",
-            "children": [
-              {
-                "name": "No Header",
-                "value": "no-header"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "filter",
-        "label": "Columns",
-        "valueType": "string",
-        "value": "table",
-        "options": [
-          {
-            "name": "1 Column",
-            "value": "table"
-          },
-          {
-            "name": "2 Columns",
-            "value": "table-2-columns"
-          },
-          {
-            "name": "3 Columns",
-            "value": "table-3-columns"
-          },
-          {
-            "name": "4 Columns",
-            "value": "table-4-columns"
-          },
-          {
-            "name": "5 Columns",
-            "value": "table-5-columns"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "table-row",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column1text",
-        "label": "Column1"
-      }
-    ]
-  },
-  {
-    "id": "table-col-2",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column1text",
-        "label": "Column1"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column2text",
-        "label": "Column2"
-      }
-    ]
-  },
-  {
-    "id": "table-col-3",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column1text",
-        "label": "Column1"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column2text",
-        "label": "Column2"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column3text",
-        "label": "Column3"
-      }
-    ]
-  },
-  {
-    "id": "table-col-4",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column1text",
-        "label": "Column1"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column2text",
-        "label": "Column2"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column3text",
-        "label": "Column3"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "column4text",
-        "label": "Column4"
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)",
+        "label": "Search URL Text",
+        "valueType": "string"
       }
     ]
   },
@@ -498,15 +211,13 @@
     "fields": [
       {
         "component": "text",
+        "name": "div:nth-child(1)>p:nth-child(1)",
         "valueType": "string",
-        "name": "tabName",
-        "value": "",
         "label": "Tab Name"
       },
       {
         "component": "richtext",
-        "name": "content",
-        "value": "",
+        "name": "div:nth-child(2)",
         "label": "Content",
         "valueType": "string"
       }
@@ -516,42 +227,29 @@
     "id": "video",
     "fields": [
       {
-        "component": "aem-content",
-        "valueType": "string",
-        "name": "uri",
-        "label": "Video"
-      },
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Options",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Auto Play",
-            "children": [
-              {
-                "name": "AutoPlay",
-                "value": "autoplay"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "placeholder_image",
-        "label": "Placeholder Image",
-        "multi": true
+        "component": "boolean",
+        "name": "classes_autoplay",
+        "label": "Autoplay Video",
+        "valueType": "boolean"
       },
       {
         "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]",
+        "label": "Video URL",
         "valueType": "string",
-        "name": "placeholder_imageAlt",
-        "value": "",
-        "label": "Placeholder Image Alt Text"
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)",
+        "label": "Video URL Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(2)>img:nth-child(3)[src]",
+        "label": "Poster Image",
+        "valueType": "string"
       }
     ]
   }

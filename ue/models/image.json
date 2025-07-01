@@ -4,11 +4,9 @@
       "title": "Image",
       "id": "image",
       "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/image/v1/image",
-            "template": {}
-          }
+        "da": {
+          "name": "image",
+          "type": "image"
         }
       }
     }
@@ -19,13 +17,13 @@
       "fields": [
         {
           "component": "reference",
-          "name": "image",
+          "name": "img:nth-child(3)[src]",
           "label": "Image",
           "multi": false
         },
         {
           "component": "text",
-          "name": "imageAlt",
+          "name": "img:nth-child(3)[alt]",
           "label": "Alt Text"
         }
       ]
