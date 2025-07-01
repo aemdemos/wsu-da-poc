@@ -148,6 +148,68 @@
     "id": "fragment",
     "fields": [
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+        "label": "Image 1",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "label": "Image 1 Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(3)[href]",
+        "label": "Video 1 URL",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(3)",
+        "label": "Video 1 URL Text"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(5)>img:nth-child(3)[src]",
+        "label": "Image 2",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(5)>img:nth-child(3)[alt]",
+        "label": "Image 2 Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(7)[href]",
+        "label": "Video 2 URL",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(7)",
+        "label": "Video 2 URL Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(2)",
+        "label": "Description",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "fields": [
+      {
         "component": "text",
         "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]",
         "label": "Fragment URL",

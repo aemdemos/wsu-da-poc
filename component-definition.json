@@ -145,6 +145,15 @@
           }
         },
         {
+          "title": "Embed",
+          "id": "embed",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div><div><p><picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img src=\"https://placehold.co/600x400\" alt=\"\" loading=\"lazy\"></picture><br><a href=\"/\">Home</a><br><picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img src=\"https://placehold.co/600x400\" alt=\"\" loading=\"lazy\"></picture><br><a href=\"/students/support/study-help\">/students/support/study-help#</a></p><p>Spme text</p></div></div>"
+            }
+          }
+        },
+        {
           "title": "Fragment",
           "id": "fragment",
           "plugins": {

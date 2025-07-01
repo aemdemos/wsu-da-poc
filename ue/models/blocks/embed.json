@@ -1,0 +1,79 @@
+{
+  "definitions": [
+    {
+      "title": "Embed",
+      "id": "embed",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div><div><p><picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img src=\"https://placehold.co/600x400\" alt=\"\" loading=\"lazy\"></picture><br><a href=\"/\">Home</a><br><picture><source srcset=\"\"><source srcset=\"\" media=\"(min-width: 600px)\"><img src=\"https://placehold.co/600x400\" alt=\"\" loading=\"lazy\"></picture><br><a href=\"/students/support/study-help\">/students/support/study-help#</a></p><p>Spme text</p></div></div>"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "fragment",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+          "label": "Image 1",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+          "label": "Image 1 Alt",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(3)[href]",
+          "label": "Video 1 URL",
+          "required": true
+        },
+        {
+          "component": "text",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(3)",
+          "label": "Video 1 URL Text"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(5)>img:nth-child(3)[src]",
+          "label": "Image 2",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>picture:nth-child(5)>img:nth-child(3)[alt]",
+          "label": "Image 2 Alt",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(7)[href]",
+          "label": "Video 2 URL",
+          "required": true
+        },
+        {
+          "component": "text",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(7)",
+          "label": "Video 2 URL Text"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(2)",
+          "label": "Description",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
+
