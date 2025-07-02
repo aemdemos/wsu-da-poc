@@ -1,2 +1,4 @@
 mountpoints:
-  /: https://content.da.live/aemdemos/wsu-da-poc
+  /:
+    type: markup
+    url: https://content.da.live/aemdemos/wsu-da-poc/
