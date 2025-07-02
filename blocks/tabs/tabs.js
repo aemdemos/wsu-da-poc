@@ -1,6 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
 import { toClassName } from '../../scripts/aem.js';
-import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default async function decorate(block) {
   // build tablist
@@ -26,7 +25,6 @@ export default async function decorate(block) {
     button.className = 'tabs-tab';
     button.id = `tab-${id}`;
 
-    moveInstrumentation(tab.parentElement, tabpanel.lastElementChild);
     button.innerHTML = tab.innerHTML;
 
     button.setAttribute('aria-controls', `tabpanel-${id}`);
@@ -45,7 +43,6 @@ export default async function decorate(block) {
     });
     tablist.append(button);
     tab.remove();
-    moveInstrumentation(button.querySelector('p'), null);
   });
 
   block.prepend(tablist);
