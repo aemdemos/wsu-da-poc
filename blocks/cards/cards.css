@@ -149,7 +149,7 @@
 
  /* Inline email link style */
  .cards.cards15 .cards-card-body a[href^="mailto:"] {
-     color: #4d90c6;
+     color: #fff;
      text-decoration: underline;
      font-weight: 400;
      word-break: break-all;
