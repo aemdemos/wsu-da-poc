@@ -121,9 +121,10 @@
 }
 
 .hero.hero8>div:nth-child(2)>div {
-    width: auto;
-    max-width: 740px;
+    width: 100%;
+    max-width: 120px;
     pointer-events: auto;
+    margin: 0 auto;
 }
 
 .hero.hero8 h1 {
